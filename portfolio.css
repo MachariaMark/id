@@ -1,0 +1,36 @@
+.header {
+    padding: 6px;
+    text-align: left;
+}
+#header1 {
+    text-align: center;
+    padding: 6px;
+    background-color: blue
+  }
+#mb {
+    text-align: center;
+    padding: 6px;
+    background-color: blue
+}
+.img {
+    float: center
+}
+.content {
+    color: white;
+    margin: 20px;
+    padding: 6px;
+}
+.column {
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width:800px) {
+.column {
+      width: 100%;
+} 
