@@ -1,0 +1,67 @@
+body {
+    margin : 0;
+    padding: 50px;
+    background: url(../img/a-content-creator.jpg)no-repeat center fixed;
+    background-size:  cover;
+}
+#p1 {
+    
+    padding: 170px;
+    background: url(../img/thinker.jpg)no-repeat center;
+    background-size:  cover;
+}
+#p2 {
+    
+    padding: 50px;
+    background: url(../img/drone.jpeg)no-repeat center fixed;
+    background-size:  cover;
+}
+.header {
+    padding: 3px;
+    text-align: left;
+}
+#header1 {
+    text-align: center;
+    padding: 6px;
+    background-color: burlywood
+  }
+#mb {
+    text-align: center;
+    padding: 6px;
+    background-color: burlywood
+}
+.content {
+    color: #000;
+    margin: 10px;
+    padding: 4px;
+}
+.column {
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: 87ceeb;
+}
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;    
+}
+li a.active {
+    background-color: red;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: black;
+    color:gray;
+}
